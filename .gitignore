@@ -1,0 +1,28 @@
+# Compiled Binaries & Object Files
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Specific Executables
+race
+critical
+atomic
+barrier
+semaphore
+compare_sync
+omp_lock
+reduction
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
