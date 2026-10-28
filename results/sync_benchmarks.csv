@@ -1,0 +1,17 @@
+Threads,Mechanism,Final_Count,Correctness,Time_s
+1,None,10000000,Correct,0.0036
+1,Critical,10000000,Correct,0.0904
+1,Atomic,10000000,Correct,0.0536
+1,Lock,10000000,Correct,0.0895
+2,None,6357011,INCORRECT,0.0063
+2,Critical,10000000,Correct,0.3072
+2,Atomic,10000000,Correct,0.1273
+2,Lock,10000000,Correct,0.349
+4,None,3209966,INCORRECT,0.0079
+4,Critical,10000000,Correct,0.6614
+4,Atomic,10000000,Correct,0.1271
+4,Lock,10000000,Correct,0.6085
+8,None,1968484,INCORRECT,0.0084
+8,Critical,10000000,Correct,0.6665
+8,Atomic,10000000,Correct,0.1296
+8,Lock,10000000,Correct,0.6236
